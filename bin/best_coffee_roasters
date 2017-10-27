@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/best_coffee_roasters'
+
+puts "Hello?"
+
+BestCoffeeRoasters::CLI.new.call
