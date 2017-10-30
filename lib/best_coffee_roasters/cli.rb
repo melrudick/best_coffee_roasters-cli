@@ -1,6 +1,7 @@
 class BestCoffeeRoasters::CLI
 
   def call
+    puts ""
     puts "Welcome to the Best Coffee Roasters in the Nation!!"
     list_roasters
     start
@@ -18,6 +19,7 @@ class BestCoffeeRoasters::CLI
     puts "1.  Figure Eight Coffee Purveyors - Austin, TX"
     puts "2.  Cat and Cloud Roasters - Santa Cruz, CA"
   end
+
 
 
 
